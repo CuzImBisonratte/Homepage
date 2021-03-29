@@ -1,0 +1,1 @@
+document.getElementById("bottom-footer").innerHTML = "<br><h4>CuzImBisonratte - " + new Date().getFullYear() + '<a href="../impressum.html"> - Impressum</a><a> - </a><a href="../datenschutz.html">Datenschutzerklärung</a><a> - </a><a href="../sitemap.html">Sitemap</a></h4><br>';

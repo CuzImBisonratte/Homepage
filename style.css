@@ -1,0 +1,135 @@
+/*
+schwarz         #000000
+weiss           #ffffff
+blau            #000C76 
+orange          #FFCC00
+orange hell     #FFE57E
+                
+grau hell       #F7F7F7
+grau mittel     #E2E2E2 
+grau dunkel     #D4D4D4
+
+graublau        #4a4a4a
+blaugrau        #4c6586
+Weizenfarben    #f5deb3
+*/
+
+@import url(Quicksand.ttf);
+html {
+    font-family: Quicksand;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #ffffff;
+}
+
+#nav-logo {
+    padding-left: 640px;
+}
+
+header {
+    text-align: center;
+}
+
+#text {
+    padding-left: 20em;
+    padding-right: 20em;
+    text-align: left;
+}
+
+main {
+    background-color: #faebd7;
+}
+
+#main-heading {
+    text-align: center;
+}
+
+#index-main {
+    text-align: center;
+}
+
+footer {
+    background-color: #4c6586;
+    bottom: 0px;
+    text-align: center;
+}
+
+#bottom-footer {
+    background-color: #4c6586;
+    color: #ffffff;
+}
+
+#socials-footer {
+    background-color: #2a3243;
+    color: #ffffff;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #fff;
+    font-family: Quicksand;
+}
+
+.navbar a {
+    float: right;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #000;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #000;
+    color: #fff;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #000000;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
